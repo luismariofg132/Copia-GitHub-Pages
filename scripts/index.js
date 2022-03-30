@@ -9,3 +9,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     ShowCard(userInfoFetch, contenedorTarjetas);
 })
+
+
+document.addEventListener('click', (e) => {
+    
+    if(e.target.classList.contains('link')){
+        localStorage.setItem('user', e.target.id)
+    }
+})

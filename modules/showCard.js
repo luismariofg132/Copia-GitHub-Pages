@@ -7,7 +7,7 @@ export const ShowCard = (data, container) => {
         container.innerHTML +=`
         <div id="card">
            <h1>${login}</h1>
-           <a id=${login} href="./pages/detalle.html"><h2>Ver repositorios</h2></a>
+           <a href='./pages/detalle.html'><h2 id=${login} class='link'>Ver repositorios</h2></a>
         </div>
         `
     })
