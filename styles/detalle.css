@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body{
+    background-color: #0D1117;
+    margin: 50px;
+    font-family: Inter;
+}
+
+
+#izquierda{
+    display: inline-block;
+    color:white;
+    width: 30%;
+}
+
+h5{
+    font-weight: 300;
+    color: #C5CED7
+}
+
+#izquierda img{
+      margin-left: 30px;
+      width:50%;
+      border-radius: 50%;
+      border: 1px solid white
+}
+
+button{
+    background-color: #8B949E;
+    width: 135px;
+    height: 35px;
+    border-radius: 5px;
+    margin-right: 2px;
+    border: 1px solid white;
+    font-family: Inter;
+}
+
+
+#derecha{
+    width: 60%;
+    display: inline-block;
+    
+}
+
+#info-card{
+    padding: 5px
+}
+
+hr{
+    color: rgb(200, 200, 200);
+    opacity: .1;
+}
+
+h3{
+    color: #57A6FF;
+    display: inline-block;
+}
+
+
+#tag-1{
+    border-radius: 10px;
+    border: 1px solid rgb(200, 200, 200);;
+    color: rgb(200, 200, 200);
+    padding: 5px;
+    margin-left: 10px;
+}
+
+p{
+    width: 50%;
+    color: rgb(200, 200, 200);
+    font-weight: 400;
+    opacity: .4
+}
+
+
+.tag{
+    border-radius: 30px;
+    color: #57A6FF;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #15223A;
+    border: none;
+}
+
+.container-tag{
+    margin: 30px 0;
+}
+
+
+.footer span{
+    background-color: yellow; 
+    width: 10px ; 
+    height: 10px ;
+    border: none;
+    display: inline-block;
+    border-radius: 60%;
+    opacity: 1;
+}
+
+.footer h5{
+    display: inline-block;
+}
+
+
+.footer a{
+    color: white;
+    margin: 0 10px
+}
+
+#container-card{
+    margin: 20px
+}
+
